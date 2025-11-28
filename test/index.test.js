@@ -1,5 +1,5 @@
 import { test, expect, describe } from "vitest";
-import { divide, multiply, sum } from "./index.js";
+import { divide, multiply, sum } from "../index.js";
 
 
 // test suite 

@@ -1,6 +1,6 @@
 import supertest from "supertest";
 import { describe, expect, test } from "vitest";
-import { app } from "./server";
+import { app } from "../server";
 
 // bevor tests ausgeführt werden, starte API mit supertest
 // und danach bekommen wir client, mit dem wir ROUTES testen können
