@@ -33,6 +33,9 @@ Typische Library: supertest
 ### End 2 End Test
 
 Wir testen ein gesamtes Feature unserer App aus USER-SICHT. 
+
+Es ist ein Fullstack-Test, das heißt, es wird geprüft, ob unsere App über Frontend und Backend nach einer User-Action korrekte Results im Browser liefert.
+
 Es wird dabei ein sogenannter "Headless Browser" gestartet, also ein Browser ohne UI, der einen User simuliert, der etwas in unserer UI macht, z.B. ein Form ausfüllt und submitted.
 
 Typische Library: cypress
