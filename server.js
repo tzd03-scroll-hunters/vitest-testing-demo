@@ -1,7 +1,9 @@
 import express from "express";
-import { whateverRouter } from "./routes/whateverRouter";
+import { whateverRouter } from "./routes/whateverRouter.js";
 
 export const app = express();
+
+console.log("Database URL: ", process.env.DATABASE_URL)
 
 // error create function
 const createError = (error, status) => ({ error, status });
